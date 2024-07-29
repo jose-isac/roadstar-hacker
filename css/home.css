@@ -47,6 +47,16 @@ nav a:hover {
   text-decoration: underline;
 }
 
+#github-contact {
+  color: rgb(79, 103, 212);
+  text-decoration: underline;
+}
+
+#email-contact {
+  color: chocolate;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 375px) {
   main {
     width: 100%;
