@@ -7,13 +7,11 @@
 }
 
 #main-title {
-  text-decoration: underline;
-  color: rgb(5, 163, 255);
+ font-weight: bolder; 
 }
 
 #main-subtitle {
   font-weight: lighter;
-  font-style: italic;
 }
 
 
@@ -30,14 +28,6 @@ nav {
   margin-top: 1rem;
 }
 
-nav::before {
-  content: "Links: {";
-}
-
-nav::after {
-  content: "}";
-}
-
 nav a {
   text-decoration: none;
   color: rgb(202, 74, 252);
@@ -45,6 +35,11 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.data-type {
+  color: rgb(86, 142, 247);
+  font-weight: bold;
 }
 
 #github-contact {
